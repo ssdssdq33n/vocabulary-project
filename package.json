@@ -1,10 +1,13 @@
 {
+  "homepage": "https://ssdssdq33n.github.io/vocabulary-project",
   "name": "vocab-app",
   "private": true,
   "version": "0.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "preview": "vite preview --port 5173"
   },
